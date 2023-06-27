@@ -13,11 +13,13 @@
   <h2>Por favor, confirmar asistencia:</h2>
 
   <form class="formulario">
+    <!-- Datos de ingreso del invitado -->
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
     <br />
 
+    <!-- Lista desplegable para seleccionar la nacionalidad -->
     Nacionalidad
     <select name="nationality" id="nationality">
       <option value="ar">Argentina</option>
@@ -29,7 +31,8 @@
     <input type="submit">
   </form>
 
-  <div>
+  <!-- * Se agrega ID lista-de-invitados utilizado en JavaScript -->
+  <div id="lista-de-invitados">
     <h2>Lista de invitados</h2>
 
   </div>

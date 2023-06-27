@@ -9,6 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
+  /* *Se agrega un gap para hacer separación de los componentes ya que el boton se encontraba muy pegado al resto de los demas componentes */
+  gap: 5px;
 }
 
 .formulario input, select {
